@@ -14,6 +14,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+	///1234567
+	//4567789
+	//gggs
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
 	self.viewController = [[propertyDemoViewController alloc] initWithNibName:@"propertyDemoViewController" bundle:nil];
