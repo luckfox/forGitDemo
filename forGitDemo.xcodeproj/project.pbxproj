@@ -18,6 +18,7 @@
 		0BD5ED36173C913B00E2241C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BD5ED35173C913B00E2241C /* Default-568h@2x.png */; };
 		0BD5ED39173C913B00E2241C /* propertyDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5ED38173C913B00E2241C /* propertyDemoViewController.m */; };
 		0BD5ED3C173C913B00E2241C /* propertyDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BD5ED3A173C913B00E2241C /* propertyDemoViewController.xib */; };
+		0BD5ED44173D00F100E2241C /* reference.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0BD5ED42173D00F100E2241C /* reference.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0BD5ED37173C913B00E2241C /* propertyDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = propertyDemoViewController.h; sourceTree = "<group>"; };
 		0BD5ED38173C913B00E2241C /* propertyDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = propertyDemoViewController.m; sourceTree = "<group>"; };
 		0BD5ED3B173C913B00E2241C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/propertyDemoViewController.xib; sourceTree = "<group>"; };
+		0BD5ED42173D00F100E2241C /* reference.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = reference.mm; sourceTree = "<group>"; };
+		0BD5ED43173D00F100E2241C /* reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reference.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0BD5ED38173C913B00E2241C /* propertyDemoViewController.m */,
 				0BD5ED3A173C913B00E2241C /* propertyDemoViewController.xib */,
 				0BD5ED26173C913B00E2241C /* Supporting Files */,
+				0BD5ED42173D00F100E2241C /* reference.mm */,
+				0BD5ED43173D00F100E2241C /* reference.h */,
 			);
 			path = forGitDemo;
 			sourceTree = "<group>";
@@ -177,6 +182,7 @@
 				0BD5ED2C173C913B00E2241C /* main.m in Sources */,
 				0BD5ED30173C913B00E2241C /* propertyDemoAppDelegate.m in Sources */,
 				0BD5ED39173C913B00E2241C /* propertyDemoViewController.m in Sources */,
+				0BD5ED44173D00F100E2241C /* reference.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +305,7 @@
 				0BD5ED41173C913B00E2241C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
