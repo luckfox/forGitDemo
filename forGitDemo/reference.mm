@@ -7,3 +7,10 @@
 //
 
 #include "reference.h"
+
+CReference *CReference::reference=NULL;
+CReference * CReference::getInstance()
+{
+	if(reference) return reference;
+	return (new CReference);
+}

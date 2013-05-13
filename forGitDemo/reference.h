@@ -11,7 +11,15 @@
 
 #include <iostream>
 
-//gsadf
+class CReference
+{
+
+private:
+	int count;
+	static CReference *reference;
+public:
+	static CReference * getInstance();
+};
 
 
 #endif /* defined(__forGitDemo__reference__) */
