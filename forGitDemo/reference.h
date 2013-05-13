@@ -19,6 +19,8 @@ private:
 	static CReference *reference;
 public:
 	static CReference * getInstance();
+public:
+	void ShowHelloWorld();
 };
 
 

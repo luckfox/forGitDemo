@@ -14,3 +14,8 @@ CReference * CReference::getInstance()
 	if(reference) return reference;
 	return (new CReference);
 }
+
+void CReference::ShowHelloWorld()
+{
+	printf("helloWorld!");
+}
