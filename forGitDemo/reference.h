@@ -21,6 +21,7 @@ public:
 	static CReference * getInstance();
 public:
 	void ShowHelloWorld();
+	void ShowMyWife();
 };
 
 

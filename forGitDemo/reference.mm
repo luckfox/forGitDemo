@@ -19,3 +19,7 @@ void CReference::ShowHelloWorld()
 {
 	printf("helloWorld!");
 }
+void CReference::ShowMyWife()
+{
+	printf("Show My Wife");
+}
